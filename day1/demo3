@@ -1,0 +1,18 @@
+public class Demo1 {
+
+    // int main = 10;
+    //primary thread (main) -> execution path of a program
+    public static void main(String[] args) throws Exception {
+
+        Demo1 demo1 = new Demo1();// this line is instance of the object
+        System.out.println("Hello, World!");
+
+        String name = Thread.currentThread().getName();
+        System.out.println("name of the primary thread is -> " + name);
+    }
+    //child thread -> Thread class - Runnable interface
+    public static void myMain(String[] args) {
+        System.out.println("Hello world! this is my main");
+        
+    }
+}
