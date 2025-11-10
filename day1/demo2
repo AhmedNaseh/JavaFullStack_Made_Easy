@@ -1,0 +1,19 @@
+public class Demo1 {
+
+    void disp(){
+        System.out.println("display function");
+    }
+
+    // int main = 10;
+    //primary thread -> execution path of a program
+    public static void main(String[] args) throws Exception {
+
+        Demo1 demo1 = new Demo1();// this line is instance of the object
+        demo1.disp();// here we call our method
+        System.out.println("Hello, World!");
+    }
+    public static void myMain(String[] args) {
+        System.out.println("Hello world! this is my main");
+        
+    }
+}
