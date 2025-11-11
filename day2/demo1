@@ -1,0 +1,17 @@
+public class Demo1 {
+    
+    public static void main(String[] args) throws Exception {
+
+        Demo1 demo1 = new Demo1();
+        myMain(args);
+        // disp();
+        demo1.disp();
+
+    }
+    static void myMain(String[] args) {
+        System.out.println("Hello world!  my function");   
+    }
+    void disp(){
+        System.out.println("dsip method");
+    }
+}
