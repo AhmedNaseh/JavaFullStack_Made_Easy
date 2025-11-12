@@ -1,0 +1,29 @@
+public class Demo1 {
+    //local variable
+    //instance variable
+    //class variable - static variables
+
+    int instanceVar;
+    static int statVar = 99;
+
+    void disp(){
+
+        int test = 9;  
+        System.out.println(test);
+        System.out.println(instanceVar);
+        System.out.println(statVar);
+    }
+
+    void abc(){
+        // System.out.println("abc " + instanceVar);
+        System.out.println(statVar);
+    }
+    public static void main(String[] args) throws Exception {
+
+        Demo1 demo1 = new Demo1();
+        demo1.disp();
+        demo1.abc();
+
+        System.out.println("main" + statVar);
+    }
+}
