@@ -1,0 +1,19 @@
+public class Demo1 {
+    //local variable
+    //instance variable
+    //class variable
+
+    int instanceVar = 10;
+
+    void disp(){
+        int test; // declaration
+        test = 9; //local variable initialization 
+        System.out.println(test);
+        System.out.println(instanceVar);
+    }
+    public static void main(String[] args) throws Exception {
+
+        Demo1 demo1 = new Demo1();
+        demo1.disp();
+    }
+}
