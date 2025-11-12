@@ -1,0 +1,24 @@
+public class Demo1 {
+    //local variable
+    //instance variable
+    //class variable
+
+    int instanceVar;
+
+    void disp(){
+        int test; // declaration
+        test = 9; //local variable initialization 
+        System.out.println(test);
+        System.out.println(instanceVar);
+    }
+
+    void abc(){
+        // System.out.println(test); local vars van oly be called within the function not outside
+        System.out.println("abc " + instanceVar);
+    }
+    public static void main(String[] args) throws Exception {
+
+        Demo1 demo1 = new Demo1();
+        demo1.disp();
+    }
+}
