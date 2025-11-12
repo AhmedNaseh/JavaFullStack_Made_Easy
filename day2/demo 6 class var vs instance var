@@ -1,0 +1,25 @@
+public class Demo1 {
+    //local variable
+    //instance variable
+    //class variable - static variables
+    int InstVar = 10;
+    static int statVar = 100;
+
+    public static void main(String[] args) throws Exception {
+
+        System.out.println(statVar);
+       
+
+        Demo1 demo1 = new Demo1();
+        demo1.InstVar = 500;
+        demo1.statVar = 700;
+        System.out.println("demo1 instance variable " + demo1.InstVar);
+        System.out.println("demo1 " + demo1.statVar);
+
+        Demo1 demo2 = new Demo1();
+        System.out.println("demo2 instance variable " + demo2.InstVar);
+        System.out.println("demo2 " + demo2.statVar);
+
+      
+    }
+}
