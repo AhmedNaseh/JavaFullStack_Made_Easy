@@ -1,0 +1,12 @@
+public class Demo1 {
+
+    public static void main(String[] args) throws Exception {
+        // C++ char -> 8bits All asci numbers are under 127< asci
+        //java char -. 16 bits unicode language
+
+        char x = '3';
+        char y = 51;
+        System.out.println(x);
+        System.out.println(y);
+    }
+}
