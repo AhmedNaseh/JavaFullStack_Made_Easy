@@ -1,0 +1,20 @@
+public class Demo1 {
+
+    public static void main(String[] args) throws Exception {
+
+       byte a = 90;
+       int b = a; //impicit
+
+       System.out.println(b);
+       
+       int c = 80;
+       byte d = (byte) c; // explicit
+       System.out.println(d);
+
+       int e = 200;
+       byte f =(byte)e;
+       System.out.println(f);
+
+      
+    }
+}
