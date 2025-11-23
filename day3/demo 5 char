@@ -1,0 +1,12 @@
+public class Demo1 {
+
+    public static void main(String[] args) throws Exception {
+        char x = '&';
+        System.out.println(x);
+
+        char y = 65; // implicit cast from bute to char
+        System.out.println(y);
+        // char z = '65';
+        // System.out.println(z); character only can take single value
+    }
+}
